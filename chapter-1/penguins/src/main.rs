@@ -23,7 +23,7 @@ fn main() {
         let name = fields[0];
 
         if let Ok(length) = fields[1].parse::<f32>() {
-            println!("{},{}cm", name, length);
+            println!("{}, {}cm", name, length);
         }
     }
 }
